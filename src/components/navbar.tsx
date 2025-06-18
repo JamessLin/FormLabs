@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
 
             {/* Navigation links */}
-            <div className="flex items-center space-x-8 h-full">
+            <div className="hidden lg:flex items-center space-x-8 h-full">
                 <Link href="/faq" className="relative text-sm text-black transition-colors group h-full flex items-center">
                     <span className="relative z-10">FAQ</span>
                     <div className="absolute bottom-0 left-0 w-full h-0 bg-blue-600 transition-all duration-300 ease-out group-hover:h-1"></div>
